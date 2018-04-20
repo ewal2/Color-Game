@@ -26,6 +26,9 @@ for(i=0; i < modeButtons.length; i++){
   modeButtons[1].classList.remove("selected");
   modeButtons[2].classList.remove("selected");
   this.classList.add("selected"); 
+  
+  // how to write the conditions below with ternary operator ?
+  
   if(this.textContent === "Easy"){
     numSquares = 3;
   }
